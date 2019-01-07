@@ -113,7 +113,7 @@ namespace HttpMethods
             return JsonConvert.DeserializeObject<TracksInfo>(response);
         }
 
-       /* public async Task<AccessToken> GetSeveralTracks(ClientCredentials spotifyClient)
+        public async Task<AccessToken> GetSeveralTracks(ClientCredentials spotifyClient)
         {
             string credentials = String.Format("{0}:{1}", spotifyClient.ClientID, spotifyClient.ClientSecret);
 
@@ -134,7 +134,7 @@ namespace HttpMethods
 
             // return the Access Token
             return JsonConvert.DeserializeObject<AccessToken>(response);
-        }*/
+        }
 
         public List<Track> SelectTracks(TracksInfo o)
         {
