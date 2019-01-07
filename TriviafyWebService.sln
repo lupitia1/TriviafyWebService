@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2E3D9A2E-1118-4F78-9B98-DA3AB5BE7348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F5B81DB5-E6F5-48E2-8FED-70606280C379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{06B91F89-D11B-4A84-9DF1-FF33696E2EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2984A94C-198A-49DD-A752-43A5F098A94A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebService", "WebService", "{33826F1A-205B-4E7D-AA6E-584916FD78BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{45AA1DA9-8713-48C7-B478-8450E8B05515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpMethods", "HttpMethods\HttpMethods.csproj", "{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriviafyTests", "TrviafyTests\TriviafyTests.csproj", "{1CA87940-5C07-488C-A4A1-7517B43BB159}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TriviafyWebService1", "TriviafyWebService1\", "{81D0B1CD-DE93-440E-9790-AA13894665DA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{b4cd4583-33c2-4ec1-b4bc-0d43e7545ca7}|HttpMethods.dll;{45AA1DA9-8713-48C7-B478-8450E8B05515}|Entities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50647"
+		Debug.AspNetCompiler.PhysicalPath = "TriviafyWebService1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50647\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50647"
+		Release.AspNetCompiler.PhysicalPath = "TriviafyWebService1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50647\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50647"
+		SlnRelativePath = "TriviafyWebService1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45AA1DA9-8713-48C7-B478-8450E8B05515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AA1DA9-8713-48C7-B478-8450E8B05515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AA1DA9-8713-48C7-B478-8450E8B05515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AA1DA9-8713-48C7-B478-8450E8B05515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA87940-5C07-488C-A4A1-7517B43BB159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA87940-5C07-488C-A4A1-7517B43BB159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA87940-5C07-488C-A4A1-7517B43BB159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA87940-5C07-488C-A4A1-7517B43BB159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D0B1CD-DE93-440E-9790-AA13894665DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D0B1CD-DE93-440E-9790-AA13894665DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D0B1CD-DE93-440E-9790-AA13894665DA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D0B1CD-DE93-440E-9790-AA13894665DA}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45AA1DA9-8713-48C7-B478-8450E8B05515} = {F5B81DB5-E6F5-48E2-8FED-70606280C379}
+		{B4CD4583-33C2-4EC1-B4BC-0D43E7545CA7} = {06B91F89-D11B-4A84-9DF1-FF33696E2EB6}
+		{1CA87940-5C07-488C-A4A1-7517B43BB159} = {2984A94C-198A-49DD-A752-43A5F098A94A}
+		{81D0B1CD-DE93-440E-9790-AA13894665DA} = {33826F1A-205B-4E7D-AA6E-584916FD78BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89DAC387-0CEE-4BC1-9E89-8B7A56D302F6}
+	EndGlobalSection
+EndGlobal

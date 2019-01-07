@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TriviafyWebService" CodeBehind="~/App_Code/TriviafyWebService.cs" %>
