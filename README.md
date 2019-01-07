@@ -40,31 +40,20 @@ La segunda clase contiene 3 tests y en ella utilizamos una instancia obtenida po
 ```
 
 
-### And coding style tests
+## Componentes
 
-Explain what these tests test and why
+* [API Spotify](https://developer.spotify.com/) - Utilizamos la API de Spotify como fuente de las canciones.
+* [Servicio Web](https://github.com/lupitia1/TriviafyWebService) - Servicio web para conectarse a la API y obtener un resultado Json.
+* [Spotify Web Playback SDK](https://developer.spotify.com/documentation/web-playback-sdk/) - Componente de Spotify añadido al cliente para reproducir audio.
+* [Cliente/Aplicación Javascript](https://github.com/dcolme/Triviafy) - Frontend Javascript donde se lleva a cabo el juego y que consume el servicio web.
+* [Instancia EC2 Amazon Web Services](http://triviafywebservice1.us-east-1.elasticbeanstalk.com/TriviafyWebService.svc) - Instancia de Elastic Beanstalk para correr el servicio web.
 
-```
-Give an example
-```
 
-## Deployment
+## Lenguajes utilizados
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+En este proyecto utilizamos los siguientes lenguajes:
+-> C# en el servicio Web
+-> Javascript en el cliente
 
 ## Authors
 
@@ -72,12 +61,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Daniel Comenares**
 * **Jose Caldeira** 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Sergio G. Maroto
